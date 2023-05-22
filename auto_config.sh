@@ -1,12 +1,12 @@
 #!/bin/bash
 
-# Update system packages
-sudo apt update -y
-sudo apt upgrade -y
-
 # Add Kali Linux repositories
 echo "deb http://http.kali.org/kali kali-rolling main non-free contrib" | sudo tee /etc/apt/sources.list.d/kali.list
 wget "https://archive.kali.org/archive-key.asc" -O - | sudo apt-key add -
+
+# Update system packages
+sudo apt update -y
+sudo apt upgrade -y
 
 # Install necessary packages
 sudo apt install -y ufw fail2ban unattended-upgrades iptables
