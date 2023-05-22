@@ -49,6 +49,9 @@ sudo systemctl restart ssh
 sudo systemctl enable fail2ban
 sudo systemctl start fail2ban
 
+# Install git
+apt install git
+
 # Enable Automatic Security Updates
 sudo dpkg-reconfigure --frontend noninteractive unattended-upgrades
 
