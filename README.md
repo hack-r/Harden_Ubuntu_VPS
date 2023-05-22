@@ -18,7 +18,7 @@ This script automates the setup of a new Ubuntu VPS with security measures inclu
 
 ## Prerequisites
 
-- Ubuntu 22 VPS with root access
+- Ubuntu VPS with root access
 - Basic knowledge of the Linux command line
 - Understanding of the potential risks and security implications
 
