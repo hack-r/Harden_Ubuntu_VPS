@@ -26,6 +26,15 @@ This script automates the setup of a new Ubuntu VPS with security measures inclu
 
 1. Log in to your Ubuntu VPS as the root user.
 
-2. Download the setup script:
+2. Run the setup script:
    ```shell
    wget https://link-to-your-script.sh
+   chmod +x auto_config.sh
+   ./auto_config.sh
+   ```
+3. Connect
+
+You can use the same SSH key to connect that you originally used to login as root:
+   ```shell
+   ssh notroot@your_server_ip -i key
+   ```
